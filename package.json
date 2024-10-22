@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "PORT=4000 mocha --reporter spec --exit",
+    "test": "cross-env PORT=4000 mocha --reporter spec --exit",
     "build": "echo 'Running Build Scripts' & npm install --production"
   },
   "dependencies": {
